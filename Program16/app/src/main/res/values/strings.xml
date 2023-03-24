@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Program-16</string>
+    <string-array name="Days">
+        <item name="Sunday">Sunday</item>
+        <item name="Monday">Monday</item>
+        <item name="Tuesday">Tuesday</item>
+        <item name="Wednesday">Wednesday</item>
+        <item name="Thursday">Thursday</item>
+        <item name="Friday">Friday</item>
+        <item name="Saturday">Saturday</item>
+    </string-array>
+</resources>
