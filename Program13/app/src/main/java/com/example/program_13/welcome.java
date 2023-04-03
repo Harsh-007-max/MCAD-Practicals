@@ -1,11 +1,8 @@
 package com.example.program_13;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-
-
 public class welcome extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

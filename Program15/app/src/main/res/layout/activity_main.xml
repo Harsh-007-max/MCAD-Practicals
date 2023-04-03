@@ -3,8 +3,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:gravity="center"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,35 +13,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="10dp"
-        >
+        android:layout_marginTop="10dp">
         <CheckBox
             android:id="@+id/RedCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Red Background"
-            android:onClick="CheckClick"
-            />
+            android:onClick="CheckClick" />
         <CheckBox
             android:id="@+id/GreenCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Green Background"
-            android:onClick="CheckClick"
-            />
+            android:onClick="CheckClick" />
         <CheckBox
             android:id="@+id/BlueCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Blue Background"
-            android:onClick="CheckClick"
-            />
+            android:onClick="CheckClick" />
     </LinearLayout>
     <RadioGroup
         android:id="@+id/RG1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/RedRB"
             android:layout_width="wrap_content"
